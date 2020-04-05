@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+  font-family: arial, helvetica, freesans, sans-serif;
+}
+
+/*CENTERS THE SHIT*/
+.fixed-width {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/*BOLD*/
+#bold {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.top-bar {
+  background-color: white;
+  width: 100%;
+  height: 40px;
+  color: black;
+}
+
+.top-bar ul {
+}
+
+.top-bar ul li {
+  float: left;
+  list-style: none;
+  border-right: 1px solid #b4b4b4;
+  font-weight: bold;
+  font-size: 1.1em;
+  padding: 10px 13px 10px 13px;
+}
+
+.news-bar {
+  background-color: #bb1919;
+  width: 100%;
+  height: 60px;
+  color: white;
+}
+
+.news-bar p {
+  padding: 0;
+  margin: 10px 0 0 0;
+  font-size: 2.6em;
+  font-family: Arial;
+  position: relative;
+  top: 8px;
+}
+
+.category-bar {
+  background-color: #a91717;
+  width: 100%;
+  height: 30px;
+  color: white;
+}
+
+.category-bar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.category-bar ul li {
+  float: left;
+  font-family: Arial;
+  font-size: 0.95em;
+  position: relative;
+  right: 8px;
+  top: 1px;
+  border-right: 1px solid white;
+  padding: 5px 10px 5px 10px;
+}
+
+.location-bar {
+  background-color: #white;
+  width: 100%;
+  height: 40px;
+  color: black;
+}
+
+.location-bar ul {
+  list-style: none;
+  margin: 5px;
+  padding: 0;
+}
+
+.location-bar ul li {
+  float: left;
+  font-family: Arial;
+  position: relative;
+  right: 22px;
+  padding: 0px 20px 0px 20px;
+  border-right: 1px solid #b4b4b4;
+}
+
+.content {
+  background-color: #white;
+  width: 100%;
+  color: #000000;
+}
+
+.content h1 {
+  color: #1167A8;
+}
+
+.content img{
+  float: right;
+  position: relative;
+  right: 380px;
+}
+ 
+.content p{
+  width: 215px;
+}
+
+.content a{
+  text-decoration: none;
+}
+
+#content-links{
+  width: 250px;
+  line-height: 1.7em;
+}
+
+.watch-listen{
+  float: right;
+  position: relative;
+  bottom: 320px;
+  right: 300px;
+  border-left: 1px solid #B4B4B4;
+  padding: 0 0 0 25px;
+}
+
+.watch-listen h2{
+  font-family: Arial;
+  font-weight: 100;
+  margin: 0 0 12px 0;
+  padding: 0;
+}
+
+.watch-listen img{
+  position: relative;
+  right: 8px;
+}
+
+#logo {
+  float: left;
+  padding-top: 5px;
+  padding-right: 10px;
+  border-right: 1px solid #b4b4b4;
+}
+
+#sign-in {
+  font-weight: bold;
+  font-size: 1.1em;
+  float: left;
+  padding: 10px 25px 10px 25px;
+  border-right: 1px solid #b4b4b4;
+}
+
+#search-bar {
+  float: left;
+  width: 50px;
+  padding: 10px;
+}
+
+#search-bar input {
+  height: 20px;
+}
